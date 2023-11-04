@@ -13,17 +13,9 @@ Feature: US-13 Recomendación de Profesores Basada en Historial y Preferencias
     aún más la precisión de futuras recomendaciones.
 
     Examples: Input
+    |Recomendacion de Profesores|
+  
     Examples: Output
-
-    Scenario: Preferencias Actualizadas
-    Given que soy un estudiante registrado en SmartProfe
-    When actualice mis preferencias académicas en mi perfil
-    And seleccione "Guardar Preferencias"
-    Then las recomendaciones de profesores deben ajustarse de acuerdo con mis cambios de preferencias 
-    de manera inmediata. Las preferencias actualizadas deben reflejarse de manera clara en el 
-    apartado de "Recomendaciones" para que pueda ver cómo se han adaptado las recomendaciones en función 
-    de mis cambios. Puedo esperar que las recomendaciones futuras se basen en estas nuevas preferencias a 
-    medida que explore la plataforma
-
-    Examples: Input
-    Examples: Output
+    | Ariana Osorio | Oscar Calapuja  | Joel Hernandez |
+    | IHC y Tecnologias Moviles | Base de Datos | Matematica Basica |
+    | 4/5 | 5/5 | 4/5 |
