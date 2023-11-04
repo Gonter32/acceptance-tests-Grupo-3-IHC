@@ -8,8 +8,8 @@ Feature: US-07 Escribir Reseña
     Then la aplicación me mostrará en la pantalla el perfil creado para el profesor
 
     
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
 
     Scenario: Escribir reseña
@@ -18,8 +18,8 @@ Feature: US-07 Escribir Reseña
     Then la aplicación le mostrará una pantalla donde se puede escribir la reseña
 
     
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
 
     Scenario: Enviar reseña
