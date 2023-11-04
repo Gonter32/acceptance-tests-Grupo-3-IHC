@@ -6,9 +6,9 @@ Feature: US-01 Asistencia Profe
     And llegue al final
     Then visualiza el apartado con los contactos y las redes sociales
 
-    Example: Input
+    Examples: Input
     |Redes sociales de SmartProfe|
     | Facebook | Instagram | Twitter | Linkedin |
 
-    Example: Output
+    Examples: Output
     | redirecciona al sitio web correspondiente |
