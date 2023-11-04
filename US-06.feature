@@ -6,8 +6,8 @@ Feature: US-06 Editar el perfil
     When el estudiante presione el icono de editar perfil
     Then la aplicación lo dirige a una pantalla con sus datos
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
 
     Scenario: Editar datos
@@ -16,5 +16,5 @@ Feature: US-06 Editar el perfil
     And le de a aceptar
     Then la aplicación lo dirige a la pantalla del perfil del estudiante.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
