@@ -7,13 +7,11 @@ Feature: US-06 Editar el perfil
     Then la aplicación lo dirige a una pantalla con sus datos
 
     Examples: Input
+    | Nombre | Apellido | Correo | Universidad | Cursos |
+    | Walter | Requejo | pcsiwreq@upc.edu.pe | Universidad de Ciencias Aplicadas | Ing. de Sistemas |
+    
     Examples: Output
+     | Nombre | Apellido | Correo | Universidad | Cursos |
+    | Walter | Requejo | pcsiwreq@upc.edu.pe | Universidad Tecnologica del Peru | Ing. de Sistemas |
 
-    Scenario: Editar datos
-    Given que el estudiante se encuentra con los sus datos personales en la pantalla 
-    When el estudiante edite el dato que desea
-    And le de a aceptar
-    Then la aplicación lo dirige a la pantalla del perfil del estudiante.
-
-    Examples: Input
-    Examples: Output
+  
