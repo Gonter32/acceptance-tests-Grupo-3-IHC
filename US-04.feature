@@ -6,8 +6,8 @@ Feature: US-04 Experiencias profesor
     And le dé a subir experiencias o agregar datos
     Then se le abrirá un apartado donde pueda subir todo lo relacionado experiencias académicas.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Subir experiencia desde página principal
     Given que el profesor quiera subir su experiencia 
@@ -15,6 +15,6 @@ Feature: US-04 Experiencias profesor
     And presione "cómo has estado"
     Then podrá subir su experiencia
 
-    Example: Input 
-    Example: Output
+    Examples: Input 
+    Examples: Output
 
