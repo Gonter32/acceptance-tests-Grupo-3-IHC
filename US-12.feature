@@ -7,11 +7,13 @@ Feature: US-12 Panel de Control de Administrador
     And seleccione la opción "Perfil"
     Then debería tener acceso al panel de control de administrador de manera segura y exclusiva para personal autorizado.
     El panel de control debe proporcionar una visión general de las herramientas y funciones disponibles para administrar 
-    la plataforma, como la gestión de usuarios, estadísticas y configuraciones.Sería útil si mencionas qué tipo de 
-    información o funciones específicas estarán disponibles en el panel de control para que sea más claro.
-
+    la plataforma, como la gestión de usuarios, estadísticas y configuraciones.
+    
     Examples: Input
+    | Panel de Control |
+    | Perfil |
     Examples: Output
+    |Gestion de Usuarios | Estadisticas | Configuraciones |
 
     Scenario: Revisión de Contenido
     Given que soy un administrador en el panel de control
@@ -23,6 +25,8 @@ Feature: US-12 Panel de Control de Administrador
     deshabilitar usuarios que violen las políticas de la plataforma. Es importante mencionar cómo 
     funcionarán estas herramientas de revisión y qué acciones específicas puedo tomar como administrador 
     en relación con el contenido y las reseñas.
-
+    
     Examples: Input
+    | Herramientas |
     Examples: Output
+    | Moderar comentarios | Moderar Reseñas | Contenido subido por usuarios |
