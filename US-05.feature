@@ -6,13 +6,9 @@ Feature: US-05 Creación del perfil usuario
     Then la aplicación le muestra una nueva pantalla para poner sus datos
 
     Examples: Input
+    | Nombre | Apellido | Correo | Universidad | Carrera |
+    | Norma | Cardenas | pcsiwreq@upc.edu.pe | Universidad de Ciencias Aplicadas | Ing. de Sistemas |
+    
     Examples: Output
+    | Se registro correctamente|
 
-    Scenario: Usuario registrado
-    Given que el estudiante se encuentra en la pantalla de registro
-    When el estudiante pongas todos sus datos en las casilla correspondientes
-    And el estudiante le dé a aceptar
-    Then la aplicación le muestra el inicio de la aplicación.
-
-    Examples: Input
-    Examples: Output
