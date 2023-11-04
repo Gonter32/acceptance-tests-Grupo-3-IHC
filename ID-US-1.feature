@@ -1,4 +1,4 @@
-Escenario:Desplazamiento correcto
+Feature: Desplazamiento correcto
 Dado que el profesor se encuentra en la página web
 Cuando navegue hasta la parte inferior de la misma
 Y llegue al final
