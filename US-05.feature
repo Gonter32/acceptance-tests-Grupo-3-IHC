@@ -5,8 +5,8 @@ Feature: US-05 Creación del perfil usuario
     When el estudiante presione en el botón registrarse
     Then la aplicación le muestra una nueva pantalla para poner sus datos
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Usuario registrado
     Given que el estudiante se encuentra en la pantalla de registro
@@ -14,5 +14,5 @@ Feature: US-05 Creación del perfil usuario
     And el estudiante le dé a aceptar
     Then la aplicación le muestra el inicio de la aplicación.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
