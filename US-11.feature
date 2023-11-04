@@ -7,8 +7,8 @@ Feature: US-11 Contacto y Soporte
     Then debería tener acceso a recursos de ayuda, preguntas frecuentes 
     y guías de uso de la aplicación para resolver preguntas comunes
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Comunicación con el Soporte
     Given que soy un usuario de SmartProfe
@@ -18,5 +18,5 @@ Feature: US-11 Contacto y Soporte
     y la aplicación debería proporcionar información de contacto, como dirección de correo 
     electrónico y número de teléfono, para obtener ayuda adicional si es necesario.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
