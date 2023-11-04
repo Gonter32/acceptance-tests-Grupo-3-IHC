@@ -12,8 +12,8 @@ Feature: US-13 Recomendación de Profesores Basada en Historial y Preferencias
     También sería útil si puedo calificar o dar retroalimentación a las recomendaciones para mejorar 
     aún más la precisión de futuras recomendaciones.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Preferencias Actualizadas
     Given que soy un estudiante registrado en SmartProfe
@@ -25,5 +25,5 @@ Feature: US-13 Recomendación de Profesores Basada en Historial y Preferencias
     de mis cambios. Puedo esperar que las recomendaciones futuras se basen en estas nuevas preferencias a 
     medida que explore la plataforma
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
