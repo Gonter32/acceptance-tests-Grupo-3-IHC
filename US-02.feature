@@ -6,9 +6,9 @@ Feature: US-02 Crear perfil del profesor
     When introduzca sus datos completos.
     Then se mostrará si se ha registrado correctamente.
 
-    Example: Input
+    Examples: Input
     | Nombre | Apellido | Correo | Universidad | Cursos |
     | Walter | Requejo | pcsiwreq@upc.edu.pe | Universidad de Ciencias Aplicadas | IHC y Tecnologías Moviles |
 
-    Example: Output
+    Examples: Output
     | Se registró correctamente |
