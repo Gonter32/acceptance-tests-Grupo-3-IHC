@@ -7,8 +7,8 @@ Feature: US-10 Gestión de Perfil de Usuario
     And seleccione la opción "Editar Perfil"
     Then debería poder actualizar mi información personal, incluyendo mi nombre, foto de perfil, dirección de correo electrónico y contraseña
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Configuración de Preferencias
     Given que soy un estudiante registrado en SmartProfe
@@ -17,5 +17,5 @@ Feature: US-10 Gestión de Perfil de Usuario
     Then debería poder establecer mis preferencias de notificación y privacidad, como recibir notificaciones por 
     correo electrónico o activar la opción de perfil privado
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
