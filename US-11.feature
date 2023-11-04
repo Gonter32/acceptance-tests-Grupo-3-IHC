@@ -8,7 +8,11 @@ Feature: US-11 Contacto y Soporte
     y guías de uso de la aplicación para resolver preguntas comunes
 
     Examples: Input
+    |Redes sociales de SmartProfe|
+    | Facebook | Instagram | Twitter | Linkedin |
+
     Examples: Output
+    | redirecciona al sitio web correspondiente |
 
     Scenario: Comunicación con el Soporte
     Given que soy un usuario de SmartProfe
@@ -19,4 +23,8 @@ Feature: US-11 Contacto y Soporte
     electrónico y número de teléfono, para obtener ayuda adicional si es necesario.
 
     Examples: Input
+    |Redes sociales de SmartProfe|
+    | Facebook | Instagram | Twitter | Linkedin |
+
     Examples: Output
+    | redirecciona al sitio web correspondiente |
