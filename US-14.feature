@@ -9,8 +9,8 @@ Feature: US-14 Acceder a una Lista Completa de Profesores
     o cualquier otro criterio relevante. También sería útil si puedo ver información básica sobre 
     cada profesor en la lista, como su nombre, materia que enseña y calificación promedio.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Organización de Profesores
     Given que soy un estudiante registrado en SmartProfe
@@ -22,5 +22,5 @@ Feature: US-14 Acceder a una Lista Completa de Profesores
     se especializan en esa área. La información adicional sobre cada profesor, como su historial académico y 
     calificaciones, también sería beneficiosa en esta sección
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
