@@ -10,8 +10,8 @@ Feature: US-12 Panel de Control de Administrador
     la plataforma, como la gestión de usuarios, estadísticas y configuraciones.Sería útil si mencionas qué tipo de 
     información o funciones específicas estarán disponibles en el panel de control para que sea más claro.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
 
     Scenario: Revisión de Contenido
     Given que soy un administrador en el panel de control
@@ -24,5 +24,5 @@ Feature: US-12 Panel de Control de Administrador
     funcionarán estas herramientas de revisión y qué acciones específicas puedo tomar como administrador 
     en relación con el contenido y las reseñas.
 
-    Example: Input
-    Example: Output
+    Examples: Input
+    Examples: Output
