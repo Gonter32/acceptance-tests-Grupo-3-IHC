@@ -6,12 +6,12 @@ Feature: US-04 Experiencias profesor
     And le dé a subir experiencias o agregar datos
     Then se le abrirá un apartado donde pueda subir todo lo relacionado experiencias académicas.
 
-    Examples: Input
-    | Perfil | Subir Experiencia |
-    | Elias Corrado | Reseña |
+    Examples: Input 
+    | Nombre | Calificacion  | Reseña |
+    | Elias Corrado | 4/5 | Tuve una buena experiencia | 
     
     Examples: Output
-    | Se subio su reseña |
+    | Se subio su reseña  | 
 
     Scenario: Subir experiencia desde página principal
     Given que el profesor quiera subir su experiencia 
@@ -20,5 +20,9 @@ Feature: US-04 Experiencias profesor
     Then podrá subir su experiencia
 
     Examples: Input 
+    | Nombre | Calificacion  | Reseña |
+    | Elias Corrado | 4/5 | Tuve una buena experiencia | 
+    
     Examples: Output
+    | Se subio su reseña  |  
 
