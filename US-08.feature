@@ -8,7 +8,12 @@ Feature: US-08 Búsqueda de Profesores Personalizada
     And la aplicación debería mostrar una lista de profesores que coincidan con mis criterios de búsqueda
 
     Examples: Input
+    | Nombre del Profesor | Curso |  Metodo de enseñanza | Dificultad del Curso |
+    | Elias Corrado | Matematica Computacional | Gamificacion | Medio |
+
     Examples: Output
+    | Buscar |
+
 
     Scenario: Búsqueda Fallida
     Given que soy un estudiante registrado en SmartProfe
@@ -16,5 +21,9 @@ Feature: US-08 Búsqueda de Profesores Personalizada
     And no haya profesores que coincidan con mis criterios de búsqueda
     Then la aplicación debería mostrarme un mensaje que indique "No se encontraron profesores que cumplan con tus criterios de búsqueda"
 
-    Examples: Input
+   Examples: Input
+    | Nombre del Profesor | Curso |  Metodo de enseñanza | Dificultad del Curso |
+    | Elias Corrado | Matematica Computacional | Gamificacion | Medio |
+
     Examples: Output
+    | Busqueda no encontrada |
