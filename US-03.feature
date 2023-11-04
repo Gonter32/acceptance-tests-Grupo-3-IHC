@@ -6,9 +6,9 @@ Feature: US-03 Aviso al Estudiante
     And todos sus datos estén colocados correctamente.
     Then se le enviará un correo en donde diga que su creación fue exitosa.
 
-    Example: Input
+    Examples: Input
     | Nombre | Apellido | Correo | Universidad | Carrera |
     | Marta | Lopez | u202212345@upc.edu.pe | Universidad Peruana de Ciencias Aplicadas | Ingenieria de Sistemas |
 
-    Example: Output
+    Examples: Output
     | Envia correo verificando su registro en SmartProfe|
